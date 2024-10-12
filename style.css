@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+    background-image: url(asset/images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main .box {
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 20;
+}
+
+nav button {
+    position: relative;
+    z-index: 20;
+
+}
+
+.hero {
+    /* font-family: Martel+Sans; */
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 240px;
+    position: relative;
+    z-index: 20;
+    gap: 10px;
+    padding: 30px;
+    
+   
+
+
+}
+
+.hero >:first-child{
+    font-weight:  900;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero >:nth-child(2){
+    font-weight:  900;
+    font-size: 56px;
+    line-height: 70px;
+text-align: center;
+}
+
+.hero >:nth-child(3){
+    font-weight:  500;
+    font-size: 20px;
+    line-height: normal;
+text-align: center;
+}
+
+.hero :nth-last-child(){
+    font-weight:  200;
+    font-size: 16px;
+    line-height: 24px;
+text-align: center;
+
+}
+
+.separation{
+    height: 09px;
+    /* width:4px; */
+    background-color: rgb(81, 79, 79);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 600;
+    background-color: rgba(23,23,23,0.1);
+    color: white;
+    /* border: white; */
+    border:1px solid rgba(115, 113, 113, 0.848);
+    padding: 6px 20px;
+    border-radius: 5px;
+    
+
+}
+
+.btn-red-sn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding:6px 20px
+
+}
+
+.btn-red{
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    /* padding: 10px 24px; */
+    padding: 12px 28px;
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.main input{
+
+    /* background-color: red; */
+    /* border: none; */
+    color: rgb(243, 242, 242); 
+    border-radius: 8px;
+    color: white;
+    /* padding: 10px 24px; */
+    background-color: rgba(23,23,23,0.5);
+    background-color: rgba(23, 23, 23, 0.5);
+    padding: 12px 123px 12px 15px;
+    font-size: larger;
+    border: 1px solid rgba(218, 210, 210, 0.5)
+    
+}
