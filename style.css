@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    /* background-color: black; */
 }
 
 .main .box {
@@ -60,92 +61,207 @@ nav button {
     z-index: 20;
     gap: 10px;
     padding: 30px;
-    
-   
-
-
 }
 
-.hero >:first-child{
-    font-weight:  900;
+.hero>:first-child {
+    font-weight: 900;
     font-size: 56px;
     line-height: 70px;
     text-align: center;
 }
 
-.hero >:nth-child(2){
-    font-weight:  900;
+.hero>:nth-child(2) {
+    font-weight: 900;
     font-size: 56px;
     line-height: 70px;
-text-align: center;
+    text-align: center;
 }
 
-.hero >:nth-child(3){
-    font-weight:  500;
+.hero>:nth-child(3) {
+    font-weight: 500;
     font-size: 20px;
     line-height: normal;
-text-align: center;
+    text-align: center;
 }
 
-.hero :nth-last-child(){
-    font-weight:  200;
+.hero :nth-last-child() {
+    font-weight: 200;
     font-size: 16px;
     line-height: 24px;
-text-align: center;
+    text-align: center;
 
 }
 
-.separation{
+.separation {
     height: 09px;
     /* width:4px; */
     background-color: rgb(81, 79, 79);
 }
 
-.btn{
+.btn {
     padding: 3px 8px;
     font-weight: 600;
-    background-color: rgba(23,23,23,0.1);
+    background-color: rgba(23, 23, 23, 0.1);
     color: white;
     /* border: white; */
-    border:1px solid rgba(115, 113, 113, 0.848);
+    border: 1px solid rgba(115, 113, 113, 0.848);
     padding: 6px 20px;
     border-radius: 5px;
-    
+
 
 }
 
-.btn-red-sn{
+.btn-red-sn {
     background-color: red;
     border: none;
     border-radius: 5px;
     color: white;
-    padding:6px 20px
-
+    padding: 6px 20px
 }
 
-.btn-red{
+.btn-red {
     background-color: red;
     border: none;
     border-radius: 6px;
     color: white;
     /* padding: 10px 24px; */
     padding: 12px 28px;
-    font-size:larger;
+    font-size: larger;
     font-weight: bolder;
 }
 
-.main input{
-
+.main input {
     /* background-color: red; */
     /* border: none; */
-    color: rgb(243, 242, 242); 
+    color: rgb(243, 242, 242);
     border-radius: 8px;
     color: white;
     /* padding: 10px 24px; */
-    background-color: rgba(23,23,23,0.5);
+    background-color: rgba(23, 23, 23, 0.5);
     background-color: rgba(23, 23, 23, 0.5);
     padding: 12px 123px 12px 15px;
     font-size: larger;
-    border: 1px solid rgba(218, 210, 210, 0.5)
+    border: 1px solid rgba(218, 210, 210, 0.5);
+}
+
+section {
+    background-color: black;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.secimg img {
+    position: relative;
+    width: 555px;
+    z-index: 20;
+    padding-left: 40px;
+
+
+}
+
+.secimg {
+    position: relative;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bold;
+    padding: -46px;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+section .first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+
+}
+
+.faq {
+        background-color: rgb(7, 7, 7);
+        color: white;
+        padding: 50px;
+}
+
+.faq h2{
+    text-align: center ;
+    font-size: 48px;
+}
+
+.faqbox:hover{
+    background-color: rgb(155, 153, 153);
+}
+
+.faqbox {
+    background-color: rgb(71, 70, 70);
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    padding: 24px;
+    max-width: 60vw;
+    margin:  20px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 2s ease-out;
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(184, 8, 8);
+    /* max-width: 60vw; */
+    margin: auto;
+    background-color: black;
+    padding: 90px 90px;
+    color:  white;
+
     
 }
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(250, 249, 249);
+    background-color: black(0, 0, 0);
+    max-width: 60vw;
+}
+ .footer-items a{
+    color: white;
+ }
+
+ footer .questions{
+    padding-right: 600px;
+ }
+
+ footer span{
+    margin-top: 0;
+    padding: 0;
+
+ }
